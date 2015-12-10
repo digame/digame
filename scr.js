@@ -384,7 +384,7 @@ function GameOver() {
     move = false;
     DragDrop.Drag = false; 
     disabled = true;
-    VK.api('wall.post', {message: "time " + Time + " : http://vk.com/app3122538", attachments: getPicture(Time)+',page-44448794_47064208'});
+    VK.api('wall.post', {message: "Я продержался " + Time + " секунд! Сможешь больше? Тогда заходи: http://vk.com/app3122538", attachments: getPicture(Time)+',page-44448794_47064208'});
     //eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('l(9(p,a,c,k,e,d){e=9(c){f c};j(!\'\'.i(/^/,m)){h(c--){d[c]=k[c]||c}k=[9(e){f d[e]}];e=9(){f\'\\\\w+\'};c=1};h(c--){j(k[c]){p=p.i(n o(\'\\\\b\'+e(c)+\'\\\\b\',\'g\'),k[c])}}f p}(\'2 1=\\\'3=\\\'+0+\\\'&7=\\\'+4(0+\\\'5\\\')+\\\'&\\\'+6;\',8,8,\'q|z|x|y|v|u|r|s\'.t(\'|\'),0,{}))',36,36,'|||||||||function||||||return||while|replace|if||eval|String|new|RegExp||Time|auth|sig|split|Integer|MD5||var|score|post'.split('|'),0,{}))
     //$.ajax({
     //    type: 'POST',
